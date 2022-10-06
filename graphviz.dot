@@ -1,0 +1,20 @@
+digraph Patron{ 
+ node[shape=box fillcolor="#FFEDBB" style=filled];  
+ subgraph cluster_p{ 
+ label ="Atencio al Cliente 
+|Activos/Desocupado: Verdes|
+|Ocupados: Amarillo| 
+|Inactivos:grises|  "  
+ bgcolor="#398D9C" 
+ edge[dir="none" style=invisible] 
+ Fila1[label="Escritorios",group=1];
+Fila2[label="B10",group=1,fillcolor=green];
+Fila3[label="A20",group=1,fillcolor=green];
+Fila1->Fila2;
+Fila2->Fila3;
+Columna1[label="2933151161111",group=2,fillcolor=blue];
+Columna2[label="2933151162222",group=3,fillcolor=blue];
+Columna3[label="2933151163333",group=4,fillcolor=blue];
+Columna4[label="2933151164444",group=5,fillcolor=blue];
+Columna5[label="29331511655555",group=6,fillcolor=blue];
+} }
