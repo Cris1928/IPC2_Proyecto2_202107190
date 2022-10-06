@@ -218,6 +218,7 @@ def menu():
                         minutordetransaccion3=float(input("ingrese los minutos de atencion: "))
                         nuervatransaccion3=NodoTransaccion(idtransaccion3,nombretransaccion3,minutordetransaccion3)
                         buscar3.ListaTransiccion.append(nuervatransaccion3)
+                        contadort=contadort+1
                     print("  ")
                     print(" Listo ")
 
